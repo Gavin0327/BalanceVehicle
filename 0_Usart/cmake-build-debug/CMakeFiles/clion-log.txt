@@ -1,0 +1,4 @@
+"E:\28_CLion\install\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=E:/28_CLion/armbuilder/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=E:/28_CLion/armbuilder/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" D:\3_Control\1_PID\3_BC1\0_Usart
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug

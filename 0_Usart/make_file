@@ -1,0 +1,3 @@
+file(GLOB_RECURSE SOURCES "BSW/*.*")
+include_directories(BSW/delay BSW/DMP BSW/IIC BSW/MPU6050)
+

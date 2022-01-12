@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="0_Usart"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0_Usart.elf">
+				<Option output="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/0_Usart.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/BSP"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 0_Usart.elf"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0_Usart.elf/fast">
+				<Option output="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/0_Usart.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/BSP"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="e:\28_clion\armbuilder\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 0_Usart.elf/fast"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;D:/3_Control/1_PID/3_BC1/0_Usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_delay.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_delay.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_dmpKey.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_iic.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_iic.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_inv_mpu.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_inv_mpu.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_inv_mpu_dmp_motion_driver.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_inv_mpu_dmp_motion_driver.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_mpu6050.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/bsp_mpu6050.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/disp.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/disp.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/dsp_dmpmap.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/dsp_filter.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/BSP/dsp_filter.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/FreeRTOSConfig.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/adc.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/gpio.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/main.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/retarget.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/stm32f1xx_it.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/tim.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Inc/usart.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/adc.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/freertos.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/gpio.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/main.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/retarget.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/stm32f1xx_hal_timebase_tim.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/stm32f1xx_it.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/syscalls.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/system_stm32f1xx.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/tim.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Core/Src/usart.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/STM32F103C8Tx_FLASH.ld">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/startup/startup_stm32f103xb.s">
+			<Option target="0_Usart.elf"/>
+		</Unit>
+		<Unit filename="D:/3_Control/1_PID/3_BC1/0_Usart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
